@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: ruby:2.4.1
+    commands:
+      - apt-get update -qq && apt-get install -y build-essential nodejs
+      - bundle install
+      - rails test
+      - bundle exec brakeman -z
