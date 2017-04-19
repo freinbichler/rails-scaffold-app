@@ -1,24 +1,12 @@
-# README
+# Rails Scaffold App
+> Simple Rails app with user scaffold including capybara and brakeman testing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Continuous Delivery
+This app is built and tested using the following CI systems.
 
-Things you may want to cover:
+### Concourse
+See https://github.com/freinbichler/concourse-rails-scaffold-app
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### drone.io
+drone.io config specified in `.drone.yml`  
+for setting up drone.io see https://github.com/freinbichler/drone-nginx-configuration
